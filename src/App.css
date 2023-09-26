@@ -132,7 +132,18 @@ a:hover{
         font-size: 1.3rem !important;
     }
 }
-
+/* @media screen and (max-width: 800px) {  */
+    @media screen and (max-width: 500px) { 
+    .MenuOuterContainer{ 
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        border-top: 1px solid #999;
+    }
+    .logo-container{
+        padding: 10px 10px 0 15px;
+    }
+  }
 .coin-detail-container{
     margin: 30px;
 }
